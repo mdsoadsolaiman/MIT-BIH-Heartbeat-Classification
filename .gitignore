@@ -26,3 +26,6 @@ results/models/cnn_best.keras
 _cleanup_review/
 REPOSITORY_PRE_CLEANUP_MANIFEST.csv
 CLEANUP_PLAN.md
+
+# Accidental independent Git repository created beside this project
+MIT-BIH Arrhythmia Heartbeats Classification/
