@@ -1,0 +1,13 @@
+split,class,pre_segmentation,post_segmentation,excluded_incomplete_window
+train,N,63622,63594,28
+train,S,2037,2037,0
+train,V,5025,5025,0
+train,F,410,409,1
+val,N,13630,13623,7
+val,S,310,310,0
+val,V,911,911,0
+val,F,367,367,0
+test,N,13379,13374,5
+test,S,434,434,0
+test,V,1300,1299,1
+test,F,26,26,0

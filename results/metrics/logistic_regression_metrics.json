@@ -1,0 +1,26 @@
+{
+  "model": "Logistic Regression",
+  "selected": {
+    "C": 10.0,
+    "solver": "lbfgs",
+    "penalty": "l2",
+    "class_weight": "balanced",
+    "max_iter": 1000
+  },
+  "validation": {
+    "accuracy": 0.810860561435803,
+    "macro_precision": 0.5361549614115908,
+    "macro_recall": 0.7266855066108906,
+    "macro_f1": 0.5662087611960419,
+    "weighted_f1": 0.8606663791862715
+  },
+  "test": {
+    "accuracy": 0.6903456023260425,
+    "macro_precision": 0.4935879697925273,
+    "macro_recall": 0.6114972981498158,
+    "macro_f1": 0.4554508857641271,
+    "weighted_f1": 0.7850570918826221
+  },
+  "n_features": 18,
+  "test_inference_seconds": 0.013279500009957701
+}

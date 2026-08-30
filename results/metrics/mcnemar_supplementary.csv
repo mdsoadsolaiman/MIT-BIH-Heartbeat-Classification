@@ -1,0 +1,4 @@
+comparison,first_correct_second_wrong,first_wrong_second_correct,discordant_total,exact_two_sided_p
+logistic_regression vs random_forest,892,3946,4838,0.0
+random_forest vs cnn,264,1173,1437,8.725690694380116e-137
+logistic_regression vs cnn,520,4483,5003,0.0

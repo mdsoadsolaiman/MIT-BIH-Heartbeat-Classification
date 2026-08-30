@@ -1,0 +1,7 @@
+split,sampling_group,record_count,N,S,V,F,total_beats
+test,arrhythmia_enriched,5,9596,419,1252,22,11289
+test,random,3,3778,15,47,4,3844
+train,arrhythmia_enriched,14,29265,1864,3802,402,35333
+train,random,18,34329,173,1223,7,35732
+val,arrhythmia_enriched,6,11884,306,835,365,13390
+val,random,2,1739,4,76,2,1821

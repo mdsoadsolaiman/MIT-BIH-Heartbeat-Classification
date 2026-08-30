@@ -1,0 +1,6 @@
+{
+  "model": "majority_training_class",
+  "predicted_class": "N",
+  "validation_accuracy": 0.8956018670698837,
+  "validation_macro_f1": 0.23623153221890825
+}

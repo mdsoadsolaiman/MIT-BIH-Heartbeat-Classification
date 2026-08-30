@@ -1,0 +1,25 @@
+{
+  "model": "Random Forest",
+  "selected": {
+    "n_estimators": 300,
+    "max_depth": 20,
+    "min_samples_leaf": 5,
+    "max_features": 0.7,
+    "class_weight": "balanced_subsample"
+  },
+  "validation": {
+    "accuracy": 0.9165077904148313,
+    "macro_precision": 0.6000788544966605,
+    "macro_recall": 0.655960014238289,
+    "macro_f1": 0.6165952301875445,
+    "weighted_f1": 0.9260394844965862
+  },
+  "test": {
+    "accuracy": 0.8921562148946012,
+    "macro_precision": 0.504373042385397,
+    "macro_recall": 0.5003366949502772,
+    "macro_f1": 0.49790799775059785,
+    "weighted_f1": 0.9128783683390506
+  },
+  "test_inference_seconds": 0.28806529997382313
+}

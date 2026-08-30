@@ -1,0 +1,28 @@
+# Local Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Operating-system and local configuration files
+.DS_Store
+Thumbs.db
+.env
+.env.*
+
+# Public source data and large reproducible derivatives
+data/raw/
+data/processed/*.npy
+data/processed/classical_*.csv
+data/processed/beat_metadata.csv
+
+# Large or intermediate trained-model artifacts
+results/models/random_forest.joblib
+results/models/cnn_best.keras
+
+# Quarantined cleanup material and regression-only audit files
+_cleanup_review/
+REPOSITORY_PRE_CLEANUP_MANIFEST.csv
+CLEANUP_PLAN.md

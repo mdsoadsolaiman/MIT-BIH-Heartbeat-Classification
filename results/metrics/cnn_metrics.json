@@ -1,0 +1,53 @@
+{
+  "model": "CNN",
+  "architecture": {
+    "input_shape": [
+      280,
+      1
+    ],
+    "conv_filters": [
+      32,
+      64
+    ],
+    "kernel_sizes": [
+      9,
+      7
+    ],
+    "pool_size": 2,
+    "dropout": 0.3,
+    "dense_units": 64,
+    "output_units": 4
+  },
+  "training": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "loss": "sparse_categorical_crossentropy",
+    "max_epochs": 15,
+    "early_stopping_patience": 3,
+    "class_weights_capped_at_15": {
+      "0": 0.2793699091109224,
+      "1": 8.721772214040255,
+      "2": 3.5355721393034827,
+      "3": 15.0
+    }
+  },
+  "trainable_parameters": 19524,
+  "epochs_run": 5,
+  "best_epoch": 2,
+  "validation": {
+    "accuracy": 0.9439879034908948,
+    "macro_precision": 0.464432251908397,
+    "macro_recall": 0.4857774065345839,
+    "macro_f1": 0.4748587848379954,
+    "weighted_f1": 0.9257264901035788
+  },
+  "test": {
+    "accuracy": 0.952223617260292,
+    "macro_precision": 0.4835923187859732,
+    "macro_recall": 0.4570297025941548,
+    "macro_f1": 0.46862638188790295,
+    "weighted_f1": 0.9381885226306779
+  },
+  "test_inference_seconds": 1.0067889999991166
+}
